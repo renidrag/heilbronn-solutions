@@ -1,4 +1,5 @@
 /.nova/
+/AGENTS.md
 .DS_Store
 ._*
 Thumbs.db
