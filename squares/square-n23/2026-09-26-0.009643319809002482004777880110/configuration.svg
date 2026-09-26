@@ -1,0 +1,322 @@
+<svg id="heilbronn-745ef6e551e9" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="svg-title svg-description">
+  <title id="svg-title">Square configuration with 23 points</title>
+  <desc id="svg-description">Square configuration with 23 points. Only 39 triangles lie within relative 1/1000000000 of the exact normalised minimum 0.00964331980900248200477788011053; all other triangles are omitted. Exact minima use the orange, heavier style and near-minima use the blue, lighter style. Hover a triangle to isolate it, click to keep it selected, shift-click to filter its congruence class, or select a point to show only limiting triangles containing that point.</desc>
+  <metadata>{&quot;congruence_class_colours&quot;:false,&quot;congruence_classes&quot;:[{&quot;index&quot;:1,&quot;triangles&quot;:1},{&quot;index&quot;:2,&quot;triangles&quot;:1},{&quot;index&quot;:3,&quot;triangles&quot;:1},{&quot;index&quot;:4,&quot;triangles&quot;:1},{&quot;index&quot;:5,&quot;triangles&quot;:1},{&quot;index&quot;:6,&quot;triangles&quot;:1},{&quot;index&quot;:7,&quot;triangles&quot;:1},{&quot;index&quot;:8,&quot;triangles&quot;:1},{&quot;index&quot;:9,&quot;triangles&quot;:1},{&quot;index&quot;:10,&quot;triangles&quot;:1},{&quot;index&quot;:11,&quot;triangles&quot;:1},{&quot;index&quot;:12,&quot;triangles&quot;:1},{&quot;index&quot;:13,&quot;triangles&quot;:1},{&quot;index&quot;:14,&quot;triangles&quot;:1},{&quot;index&quot;:15,&quot;triangles&quot;:1},{&quot;index&quot;:16,&quot;triangles&quot;:1},{&quot;index&quot;:17,&quot;triangles&quot;:1},{&quot;index&quot;:18,&quot;triangles&quot;:1},{&quot;index&quot;:19,&quot;triangles&quot;:1},{&quot;index&quot;:20,&quot;triangles&quot;:1},{&quot;index&quot;:21,&quot;triangles&quot;:1},{&quot;index&quot;:22,&quot;triangles&quot;:1},{&quot;index&quot;:23,&quot;triangles&quot;:1},{&quot;index&quot;:24,&quot;triangles&quot;:1},{&quot;index&quot;:25,&quot;triangles&quot;:1},{&quot;index&quot;:26,&quot;triangles&quot;:1},{&quot;index&quot;:27,&quot;triangles&quot;:1},{&quot;index&quot;:28,&quot;triangles&quot;:1},{&quot;index&quot;:29,&quot;triangles&quot;:1},{&quot;index&quot;:30,&quot;triangles&quot;:1},{&quot;index&quot;:31,&quot;triangles&quot;:1},{&quot;index&quot;:32,&quot;triangles&quot;:1},{&quot;index&quot;:33,&quot;triangles&quot;:1},{&quot;index&quot;:34,&quot;triangles&quot;:1},{&quot;index&quot;:35,&quot;triangles&quot;:1},{&quot;index&quot;:36,&quot;triangles&quot;:1},{&quot;index&quot;:37,&quot;triangles&quot;:1},{&quot;index&quot;:38,&quot;triangles&quot;:1},{&quot;index&quot;:39,&quot;triangles&quot;:1}],&quot;congruence_relative_tolerance&quot;:&quot;1/1000000000&quot;,&quot;coordinates_sha256&quot;:&quot;745ef6e551e93488e5a6b17b7965efb3465810e94ff9b5578bcd46b4e28ee0e1&quot;,&quot;domain&quot;:&quot;square&quot;,&quot;exact_minimum_ties&quot;:1,&quot;minimum_decimal&quot;:&quot;0.00964331980900248200477788011053&quot;,&quot;minimum_fraction&quot;:&quot;120541497612531025059723501381577703890234785663681868849/12500000000000000000000000000000000000000000000000000000000&quot;,&quot;n&quot;:23,&quot;near_minimum_relative_tolerance&quot;:&quot;1/1000000000&quot;,&quot;near_minimum_triangles&quot;:39,&quot;normalization&quot;:&quot;minimum_triangle_area/domain_area&quot;,&quot;renderer&quot;:&quot;heilbronn-configuration-svg-v4&quot;,&quot;source_name&quot;:&quot;coordinates.txt&quot;,&quot;triples_checked&quot;:1771,&quot;unique_limiting_edges&quot;:107,&quot;witness_triple_zero_based&quot;:[12,13,20]}</metadata>
+  <style>
+    .frame { fill: none; stroke: #4b515b; stroke-width: 2; }
+    .limiting-fill { stroke: none; pointer-events: visiblePainted; cursor: pointer; transition: opacity 120ms ease, fill-opacity 120ms ease; }
+    .limiting-fill.near-minimum { fill: #537fd8; fill-opacity: .055; }
+    .limiting-fill.exact-minimum { fill: #d97706; fill-opacity: .18; }
+    .triangle-edge { stroke: #4b7bd5; stroke-opacity: .72; stroke-width: 1.15; stroke-linecap: round; pointer-events: none; transition: opacity 120ms ease, stroke-opacity 120ms ease, stroke-width 120ms ease; }
+    .triangle-edge.has-exact { stroke: #c55a11; stroke-opacity: .98; stroke-width: 2.35; }
+    .point { fill: #f8fafc; stroke: #20242b; stroke-width: 2.2; cursor: pointer; transition: fill 120ms ease, stroke 120ms ease, opacity 120ms ease; }
+    .point-label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #20242b; paint-order: stroke; stroke: #f8fafc; stroke-width: 4px; stroke-linejoin: round; pointer-events: none; }
+    .minimum-legend text, .selection-status { font-family: Arial, Helvetica, sans-serif; font-size: 12px; fill: #4b515b; }
+    .minimum-legend line { stroke-linecap: round; }
+    .legend-exact { stroke: #c55a11; stroke-width: 3; }
+    .legend-near { stroke: #4b7bd5; stroke-width: 1.25; }
+    .legend-class-dot { stroke: #f8fafc; stroke-width: 1; }
+    .caption { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #20242b; }
+    .caption-secondary { font-size: 15px; fill: #5c6572; }
+    .caption-help { font-size: 13px; fill: #6b7280; }
+    .has-focus .limiting-fill { opacity: .07; }
+    .has-focus .triangle-edge { opacity: .10; }
+    .has-focus .limiting-fill.is-active { opacity: 1; fill-opacity: .22; }
+    .has-focus .triangle-edge.is-active { opacity: 1; stroke-opacity: 1; stroke-width: 2.7; }
+    .has-focus .triangle-edge.has-exact.is-active { stroke-width: 3.4; }
+    .point.is-focus-member { stroke: #4b7bd5; stroke-width: 3; }
+    .point.is-selected { fill: #f2b84b; stroke: #694510; stroke-width: 3; }
+    @media (prefers-color-scheme: dark) {
+      .frame { stroke: #6d7480; }
+      .triangle-edge { stroke: #75a4ff; }
+      .triangle-edge.has-exact, .legend-exact { stroke: #f2b84b; }
+      .limiting-fill.exact-minimum { fill: #f2b84b; }
+      .minimum-legend text, .selection-status { fill: #d6d9df; }
+      .point-label { fill: #f8fafc; stroke: #17191f; }
+      .caption { fill: #f8fafc; stroke: none; }
+      .caption-secondary, .caption-help { fill: #aeb6c2; stroke: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .limiting-fill, .triangle-edge, .point { transition: none; }
+    }
+  </style>
+  <polygon class="frame" points="36,36 964,36 964,964 36,964"/>
+  <g class="minimum-legend" aria-label="Triangle style legend">
+    <line class="legend-exact" x1="42" y1="18" x2="68" y2="18"/>
+    <text x="75" y="22">exact minimum</text>
+    <line class="legend-near" x1="178" y1="18" x2="204" y2="18"/>
+    <text x="211" y="22">near minimum</text>
+  </g>
+  <text class="selection-status" x="964" y="22" text-anchor="end" role="status" aria-live="polite"></text>
+  <g aria-label="Limiting triangle fills">
+    <polygon class="limiting-fill near-minimum class-16" id="t0" points="928.912,36.000 631.850,434.214 337.056,773.476" data-triangle-id="t0" data-points="4 8 16" data-category="near-minimum" data-class-index="16" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="1239755954183046341115671232503/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (4, 8, 16); relative difference = +6.42805578752e-29; congruence class 16 (1 triangle)"><title>Near-minimum triangle (4, 8, 16); relative difference = +6.42805578752e-29; congruence class 16 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-32" id="t1" points="412.983,366.656 337.056,773.476 511.578,57.134" data-triangle-id="t1" data-points="11 16 17" data-category="near-minimum" data-class-index="32" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="282663842725363707115640003543/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (11, 16, 17); relative difference = +5.86237620081e-29; congruence class 32 (1 triangle)"><title>Near-minimum triangle (11, 16, 17); relative difference = +5.86237620081e-29; congruence class 32 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-14" id="t2" points="964.000,415.381 964.000,888.749 928.912,964.000" data-triangle-id="t2" data-points="3 15 19" data-category="near-minimum" data-class-index="14" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="1041533805854433207929049260297/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (3, 15, 19); relative difference = +5.40028655320e-29; congruence class 14 (1 triangle)"><title>Near-minimum triangle (3, 15, 19); relative difference = +5.40028655320e-29; congruence class 14 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-12" id="t3" points="964.000,415.381 928.912,36.000 964.000,888.749" data-triangle-id="t3" data-points="3 4 15" data-category="near-minimum" data-class-index="12" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="1041533805854433207929049260297/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (3, 4, 15); relative difference = +5.40028655320e-29; congruence class 12 (1 triangle)"><title>Near-minimum triangle (3, 4, 15); relative difference = +5.40028655320e-29; congruence class 12 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-37" id="t4" points="36.000,567.428 337.056,773.476 615.989,909.211" data-triangle-id="t4" data-points="14 16 20" data-category="near-minimum" data-class-index="37" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="1017735758021045279997739994383/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (14, 16, 20); relative difference = +5.27689518848e-29; congruence class 37 (1 triangle)"><title>Near-minimum triangle (14, 16, 20); relative difference = +5.27689518848e-29; congruence class 37 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-20" id="t5" points="877.720,260.306 631.850,434.214 74.304,761.024" data-triangle-id="t5" data-points="5 8 9" data-category="near-minimum" data-class-index="20" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="58303765976103447407336987929/1205414976125310250597235013815777038902347856636818688490" aria-label="Near-minimum triangle (5, 8, 9); relative difference = +4.83682110567e-29; congruence class 20 (1 triangle)"><title>Near-minimum triangle (5, 8, 9); relative difference = +4.83682110567e-29; congruence class 20 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-36" id="t6" points="108.648,389.503 964.000,888.749 672.277,699.060" data-triangle-id="t6" data-points="13 15 18" data-category="near-minimum" data-class-index="36" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="459281524670918741022056656769/9643319809002482004777880110526216311218782853094549507920" aria-label="Near-minimum triangle (13, 15, 18); relative difference = +4.76269100027e-29; congruence class 36 (1 triangle)"><title>Near-minimum triangle (13, 15, 18); relative difference = +4.76269100027e-29; congruence class 36 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-15" id="t7" points="964.000,415.381 337.056,773.476 184.989,886.825" data-triangle-id="t7" data-points="3 16 22" data-category="near-minimum" data-class-index="15" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="910027141698635329172139776971/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (3, 16, 22); relative difference = +4.71843286193e-29; congruence class 15 (1 triangle)"><title>Near-minimum triangle (3, 16, 22); relative difference = +4.71843286193e-29; congruence class 15 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-24" id="t8" points="495.863,964.000 631.850,434.214 684.752,105.980" data-triangle-id="t8" data-points="7 8 21" data-category="near-minimum" data-class-index="24" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="5663159497707599426191649496/120541497612531025059723501381577703890234785663681868849" aria-label="Near-minimum triangle (7, 8, 21); relative difference = +4.69809950090e-29; congruence class 24 (1 triangle)"><title>Near-minimum triangle (7, 8, 21); relative difference = +4.69809950090e-29; congruence class 24 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-17" id="t9" points="928.912,36.000 300.580,148.062 684.752,105.980" data-triangle-id="t9" data-points="4 10 21" data-category="near-minimum" data-class-index="17" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="176708554774913769340145677353/3857327923600992801911152044210486524487513141237819803168" aria-label="Near-minimum triangle (4, 10, 21); relative difference = +4.58111309888e-29; congruence class 17 (1 triangle)"><title>Near-minimum triangle (4, 10, 21); relative difference = +4.58111309888e-29; congruence class 17 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-31" id="t10" points="300.580,148.062 108.648,389.503 36.000,567.428" data-triangle-id="t10" data-points="10 13 14" data-category="near-minimum" data-class-index="31" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="403201813497292600735657127159/9643319809002482004777880110526216311218782853094549507920" aria-label="Near-minimum triangle (10, 13, 14); relative difference = +4.18115152752e-29; congruence class 31 (1 triangle)"><title>Near-minimum triangle (10, 13, 14); relative difference = +4.18115152752e-29; congruence class 31 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-27" id="t11" points="74.304,761.024 412.983,366.656 297.476,550.197" data-triangle-id="t11" data-points="9 11 12" data-category="near-minimum" data-class-index="27" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="200641712924679575749447811499/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (9, 11, 12); relative difference = +4.16125809158e-29; congruence class 27 (1 triangle)"><title>Near-minimum triangle (9, 11, 12); relative difference = +4.16125809158e-29; congruence class 27 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-23" id="t12" points="710.057,262.934 928.912,964.000 684.752,105.980" data-triangle-id="t12" data-points="6 19 21" data-category="near-minimum" data-class-index="23" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="159403505423055576498614723897/3857327923600992801911152044210486524487513141237819803168" aria-label="Near-minimum triangle (6, 19, 21); relative difference = +4.13248519649e-29; congruence class 23 (1 triangle)"><title>Near-minimum triangle (6, 19, 21); relative difference = +4.13248519649e-29; congruence class 23 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-35" id="t13" points="297.476,550.197 511.578,57.134 184.989,886.825" data-triangle-id="t13" data-points="12 17 22" data-category="near-minimum" data-class-index="35" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="194374507152570803848051034121/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (12, 17, 22); relative difference = +4.03127783797e-29; congruence class 35 (1 triangle)"><title>Near-minimum triangle (12, 17, 22); relative difference = +4.03127783797e-29; congruence class 35 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-22" id="t14" points="710.057,262.934 672.277,699.060 615.989,909.211" data-triangle-id="t14" data-points="6 18 20" data-category="near-minimum" data-class-index="22" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="776308834964062976154411457121/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (6, 18, 20); relative difference = +4.02511194454e-29; congruence class 22 (1 triangle)"><title>Near-minimum triangle (6, 18, 20); relative difference = +4.02511194454e-29; congruence class 22 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-5" id="t15" points="96.619,36.000 877.456,585.914 631.850,434.214" data-triangle-id="t15" data-points="1 2 8" data-category="near-minimum" data-class-index="5" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="4819784235098052791827814246/120541497612531025059723501381577703890234785663681868849" aria-label="Near-minimum triangle (1, 2, 8); relative difference = +3.99844396375e-29; congruence class 5 (1 triangle)"><title>Near-minimum triangle (1, 2, 8); relative difference = +3.99844396375e-29; congruence class 5 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-9" id="t16" points="877.456,585.914 928.912,36.000 877.720,260.306" data-triangle-id="t16" data-points="2 4 5" data-category="near-minimum" data-class-index="9" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="377370646357915554632373819799/9643319809002482004777880110526216311218782853094549507920" aria-label="Near-minimum triangle (2, 4, 5); relative difference = +3.91328560944e-29; congruence class 9 (1 triangle)"><title>Near-minimum triangle (2, 4, 5); relative difference = +3.91328560944e-29; congruence class 9 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-3" id="t17" points="36.000,133.810 300.580,148.062 684.752,105.980" data-triangle-id="t17" data-points="0 10 21" data-category="near-minimum" data-class-index="3" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="46050524571755472319042099823/1205414976125310250597235013815777038902347856636818688490" aria-label="Near-minimum triangle (0, 10, 21); relative difference = +3.82030466552e-29; congruence class 3 (1 triangle)"><title>Near-minimum triangle (0, 10, 21); relative difference = +3.82030466552e-29; congruence class 3 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-13" id="t18" points="964.000,415.381 877.720,260.306 684.752,105.980" data-triangle-id="t18" data-points="3 5 21" data-category="near-minimum" data-class-index="13" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="91280207724388976084757570239/2410829952250620501194470027631554077804695713273637376980" aria-label="Near-minimum triangle (3, 5, 21); relative difference = +3.78625658102e-29; congruence class 13 (1 triangle)"><title>Near-minimum triangle (3, 5, 21); relative difference = +3.78625658102e-29; congruence class 13 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-4" id="t19" points="36.000,133.810 108.648,389.503 184.989,886.825" data-triangle-id="t19" data-points="0 13 22" data-category="near-minimum" data-class-index="4" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="181378767104043622418020321389/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (0, 13, 22); relative difference = +3.76174949491e-29; congruence class 4 (1 triangle)"><title>Near-minimum triangle (0, 13, 22); relative difference = +3.76174949491e-29; congruence class 4 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-6" id="t20" points="96.619,36.000 74.304,761.024 108.648,389.503" data-triangle-id="t20" data-points="1 9 13" data-category="near-minimum" data-class-index="6" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="712141690037415886715868378021/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (1, 9, 13); relative difference = +3.69240937842e-29; congruence class 6 (1 triangle)"><title>Near-minimum triangle (1, 9, 13); relative difference = +3.69240937842e-29; congruence class 6 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-30" id="t21" points="300.580,148.062 297.476,550.197 337.056,773.476" data-triangle-id="t21" data-points="10 12 16" data-category="near-minimum" data-class-index="30" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="34858910690722227140217736161/964331980900248200477788011052621631121878285309454950792" aria-label="Near-minimum triangle (10, 12, 16); relative difference = +3.61482470572e-29; congruence class 30 (1 triangle)"><title>Near-minimum triangle (10, 12, 16); relative difference = +3.61482470572e-29; congruence class 30 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-7" id="t22" points="96.619,36.000 511.578,57.134 684.752,105.980" data-triangle-id="t22" data-points="1 17 21" data-category="near-minimum" data-class-index="7" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="658199575106784267197723180059/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (1, 17, 21); relative difference = +3.41272294263e-29; congruence class 7 (1 triangle)"><title>Near-minimum triangle (1, 17, 21); relative difference = +3.41272294263e-29; congruence class 7 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-38" id="t23" points="964.000,888.749 615.989,909.211 184.989,886.825" data-triangle-id="t23" data-points="15 20 22" data-category="near-minimum" data-class-index="38" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="81970911769108244121989123761/2410829952250620501194470027631554077804695713273637376980" aria-label="Near-minimum triangle (15, 20, 22); relative difference = +3.40011172055e-29; congruence class 38 (1 triangle)"><title>Near-minimum triangle (15, 20, 22); relative difference = +3.40011172055e-29; congruence class 38 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-28" id="t24" points="74.304,761.024 36.000,567.428 184.989,886.825" data-triangle-id="t24" data-points="9 14 22" data-category="near-minimum" data-class-index="28" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="311641782886093439001899723857/9643319809002482004777880110526216311218782853094549507920" aria-label="Near-minimum triangle (9, 14, 22); relative difference = +3.23168565451e-29; congruence class 28 (1 triangle)"><title>Near-minimum triangle (9, 14, 22); relative difference = +3.23168565451e-29; congruence class 28 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-10" id="t25" points="877.456,585.914 631.850,434.214 412.983,366.656" data-triangle-id="t25" data-points="2 8 11" data-category="near-minimum" data-class-index="10" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="61684805800152830078374685443/1928663961800496400955576022105243262243756570618909901584" aria-label="Near-minimum triangle (2, 8, 11); relative difference = +3.19831795595e-29; congruence class 10 (1 triangle)"><title>Near-minimum triangle (2, 8, 11); relative difference = +3.19831795595e-29; congruence class 10 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-1" id="t26" points="36.000,133.810 877.456,585.914 631.850,434.214" data-triangle-id="t26" data-points="0 2 8" data-category="near-minimum" data-class-index="1" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="14903449640468974108874457511/482165990450124100238894005526310815560939142654727475396" aria-label="Near-minimum triangle (0, 2, 8); relative difference = +3.09093754758e-29; congruence class 1 (1 triangle)"><title>Near-minimum triangle (0, 2, 8); relative difference = +3.09093754758e-29; congruence class 1 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-18" id="t27" points="928.912,36.000 672.277,699.060 615.989,909.211" data-triangle-id="t27" data-points="4 18 20" data-category="near-minimum" data-class-index="18" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="595713743560802103800449661519/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (4, 18, 20); relative difference = +3.08873787948e-29; congruence class 18 (1 triangle)"><title>Near-minimum triangle (4, 18, 20); relative difference = +3.08873787948e-29; congruence class 18 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-2" id="t28" points="36.000,133.810 74.304,761.024 36.000,567.428" data-triangle-id="t28" data-points="0 9 14" data-category="near-minimum" data-class-index="2" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="28106723577372812290609369735/964331980900248200477788011052621631121878285309454950792" aria-label="Near-minimum triangle (0, 9, 14); relative difference = +2.91463148937e-29; congruence class 2 (1 triangle)"><title>Near-minimum triangle (0, 9, 14); relative difference = +2.91463148937e-29; congruence class 2 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-39" id="t29" points="928.912,964.000 615.989,909.211 184.989,886.825" data-triangle-id="t29" data-points="19 20 22" data-category="near-minimum" data-class-index="39" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="131897338328314116607153686767/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (19, 20, 22); relative difference = +2.73551724802e-29; congruence class 39 (1 triangle)"><title>Near-minimum triangle (19, 20, 22); relative difference = +2.73551724802e-29; congruence class 39 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-21" id="t30" points="710.057,262.934 631.850,434.214 684.752,105.980" data-triangle-id="t30" data-points="6 8 21" data-category="near-minimum" data-class-index="21" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="6115486419700123378220204091/241082995225062050119447002763155407780469571327363737698" aria-label="Near-minimum triangle (6, 8, 21); relative difference = +2.53667265665e-29; congruence class 21 (1 triangle)"><title>Near-minimum triangle (6, 8, 21); relative difference = +2.53667265665e-29; congruence class 21 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-8" id="t31" points="877.456,585.914 964.000,415.381 615.989,909.211" data-triangle-id="t31" data-points="2 3 20" data-category="near-minimum" data-class-index="8" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="30036312276967875065873684843/1205414976125310250597235013815777038902347856636818688490" aria-label="Near-minimum triangle (2, 3, 20); relative difference = +2.49178190680e-29; congruence class 8 (1 triangle)"><title>Near-minimum triangle (2, 3, 20); relative difference = +2.49178190680e-29; congruence class 8 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-25" id="t32" points="495.863,964.000 964.000,888.749 615.989,909.211" data-triangle-id="t32" data-points="7 15 20" data-category="near-minimum" data-class-index="25" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="108760268760582711718158811331/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (7, 15, 20); relative difference = +2.25566031024e-29; congruence class 25 (1 triangle)"><title>Near-minimum triangle (7, 15, 20); relative difference = +2.25566031024e-29; congruence class 25 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-26" id="t33" points="631.850,434.214 511.578,57.134 672.277,699.060" data-triangle-id="t33" data-points="8 17 18" data-category="near-minimum" data-class-index="26" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="206013426498778395678288380263/9643319809002482004777880110526216311218782853094549507920" aria-label="Near-minimum triangle (8, 17, 18); relative difference = +2.13633303239e-29; congruence class 26 (1 triangle)"><title>Near-minimum triangle (8, 17, 18); relative difference = +2.13633303239e-29; congruence class 26 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-19" id="t34" points="877.720,260.306 710.057,262.934 412.983,366.656" data-triangle-id="t34" data-points="5 6 11" data-category="near-minimum" data-class-index="19" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="79701790798984839951905994925/3857327923600992801911152044210486524487513141237819803168" aria-label="Near-minimum triangle (5, 6, 11); relative difference = +2.06624358565e-29; congruence class 19 (1 triangle)"><title>Near-minimum triangle (5, 6, 11); relative difference = +2.06624358565e-29; congruence class 19 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-11" id="t35" points="877.456,585.914 672.277,699.060 184.989,886.825" data-triangle-id="t35" data-points="2 18 22" data-category="near-minimum" data-class-index="11" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="75130561976164240183917234857/4821659904501241002388940055263108155609391426547274753960" aria-label="Near-minimum triangle (2, 18, 22); relative difference = +1.55818874546e-29; congruence class 11 (1 triangle)"><title>Near-minimum triangle (2, 18, 22); relative difference = +1.55818874546e-29; congruence class 11 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-29" id="t36" points="300.580,148.062 412.983,366.656 615.989,909.211" data-triangle-id="t36" data-points="10 11 20" data-category="near-minimum" data-class-index="29" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="217045105106457120760493652497/19286639618004964009555760221052432622437565706189099015840" aria-label="Near-minimum triangle (10, 11, 20); relative difference = +1.12536506828e-29; congruence class 29 (1 triangle)"><title>Near-minimum triangle (10, 11, 20); relative difference = +1.12536506828e-29; congruence class 29 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill near-minimum class-33" id="t37" points="412.983,366.656 672.277,699.060 928.912,964.000" data-triangle-id="t37" data-points="11 18 19" data-category="near-minimum" data-class-index="33" data-class-count="1" data-exact-minimum="false" data-verifier-witness="false" data-relative-excess="9965947017257187475950317615/1928663961800496400955576022105243262243756570618909901584" aria-label="Near-minimum triangle (11, 18, 19); relative difference = +5.16728015592e-30; congruence class 33 (1 triangle)"><title>Near-minimum triangle (11, 18, 19); relative difference = +5.16728015592e-30; congruence class 33 (1 triangle)</title></polygon>
+    <polygon class="limiting-fill exact-minimum class-34" id="t38" points="297.476,550.197 108.648,389.503 615.989,909.211" data-triangle-id="t38" data-points="12 13 20" data-category="exact-minimum" data-class-index="34" data-class-count="1" data-exact-minimum="true" data-verifier-witness="true" data-relative-excess="0" aria-label="Exact minimum triangle (12, 13, 20); relative difference = 0; normalised area = 0.00964331980900248200477788011053; congruence class 34 (1 triangle)"><title>Exact minimum triangle (12, 13, 20); relative difference = 0; normalised area = 0.00964331980900248200477788011053; congruence class 34 (1 triangle)</title></polygon>
+  </g>
+  <g aria-label="Unique limiting-triangle edges">
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="877.456" y2="585.914" data-points="0 2" data-triangles="t26" data-classes="1" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="631.850" y2="434.214" data-points="0 8" data-triangles="t26" data-classes="1" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="74.304" y2="761.024" data-points="0 9" data-triangles="t28" data-classes="2" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="300.580" y2="148.062" data-points="0 10" data-triangles="t17" data-classes="3" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="108.648" y2="389.503" data-points="0 13" data-triangles="t19" data-classes="4" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="36.000" y2="567.428" data-points="0 14" data-triangles="t28" data-classes="2" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="684.752" y2="105.980" data-points="0 21" data-triangles="t17" data-classes="3" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="133.810" x2="184.989" y2="886.825" data-points="0 22" data-triangles="t19" data-classes="4" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="877.456" y2="585.914" data-points="1 2" data-triangles="t15" data-classes="5" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="631.850" y2="434.214" data-points="1 8" data-triangles="t15" data-classes="5" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="74.304" y2="761.024" data-points="1 9" data-triangles="t20" data-classes="6" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="108.648" y2="389.503" data-points="1 13" data-triangles="t20" data-classes="6" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="511.578" y2="57.134" data-points="1 17" data-triangles="t22" data-classes="7" data-has-exact="false"/>
+    <line class="triangle-edge" x1="96.619" y1="36.000" x2="684.752" y2="105.980" data-points="1 21" data-triangles="t22" data-classes="7" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="964.000" y2="415.381" data-points="2 3" data-triangles="t31" data-classes="8" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="928.912" y2="36.000" data-points="2 4" data-triangles="t16" data-classes="9" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="877.720" y2="260.306" data-points="2 5" data-triangles="t16" data-classes="9" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="631.850" y2="434.214" data-points="2 8" data-triangles="t15 t25 t26" data-classes="1 5 10" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="412.983" y2="366.656" data-points="2 11" data-triangles="t25" data-classes="10" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="672.277" y2="699.060" data-points="2 18" data-triangles="t35" data-classes="11" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="615.989" y2="909.211" data-points="2 20" data-triangles="t31" data-classes="8" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.456" y1="585.914" x2="184.989" y2="886.825" data-points="2 22" data-triangles="t35" data-classes="11" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="928.912" y2="36.000" data-points="3 4" data-triangles="t3" data-classes="12" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="877.720" y2="260.306" data-points="3 5" data-triangles="t18" data-classes="13" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="964.000" y2="888.749" data-points="3 15" data-triangles="t2 t3" data-classes="12 14" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="337.056" y2="773.476" data-points="3 16" data-triangles="t7" data-classes="15" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="928.912" y2="964.000" data-points="3 19" data-triangles="t2" data-classes="14" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="615.989" y2="909.211" data-points="3 20" data-triangles="t31" data-classes="8" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="684.752" y2="105.980" data-points="3 21" data-triangles="t18" data-classes="13" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="415.381" x2="184.989" y2="886.825" data-points="3 22" data-triangles="t7" data-classes="15" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="877.720" y2="260.306" data-points="4 5" data-triangles="t16" data-classes="9" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="631.850" y2="434.214" data-points="4 8" data-triangles="t0" data-classes="16" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="300.580" y2="148.062" data-points="4 10" data-triangles="t9" data-classes="17" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="964.000" y2="888.749" data-points="4 15" data-triangles="t3" data-classes="12" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="337.056" y2="773.476" data-points="4 16" data-triangles="t0" data-classes="16" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="672.277" y2="699.060" data-points="4 18" data-triangles="t27" data-classes="18" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="615.989" y2="909.211" data-points="4 20" data-triangles="t27" data-classes="18" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="36.000" x2="684.752" y2="105.980" data-points="4 21" data-triangles="t9" data-classes="17" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.720" y1="260.306" x2="710.057" y2="262.934" data-points="5 6" data-triangles="t34" data-classes="19" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.720" y1="260.306" x2="631.850" y2="434.214" data-points="5 8" data-triangles="t5" data-classes="20" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.720" y1="260.306" x2="74.304" y2="761.024" data-points="5 9" data-triangles="t5" data-classes="20" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.720" y1="260.306" x2="412.983" y2="366.656" data-points="5 11" data-triangles="t34" data-classes="19" data-has-exact="false"/>
+    <line class="triangle-edge" x1="877.720" y1="260.306" x2="684.752" y2="105.980" data-points="5 21" data-triangles="t18" data-classes="13" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="631.850" y2="434.214" data-points="6 8" data-triangles="t30" data-classes="21" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="412.983" y2="366.656" data-points="6 11" data-triangles="t34" data-classes="19" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="672.277" y2="699.060" data-points="6 18" data-triangles="t14" data-classes="22" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="928.912" y2="964.000" data-points="6 19" data-triangles="t12" data-classes="23" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="615.989" y2="909.211" data-points="6 20" data-triangles="t14" data-classes="22" data-has-exact="false"/>
+    <line class="triangle-edge" x1="710.057" y1="262.934" x2="684.752" y2="105.980" data-points="6 21" data-triangles="t12 t30" data-classes="21 23" data-has-exact="false"/>
+    <line class="triangle-edge" x1="495.863" y1="964.000" x2="631.850" y2="434.214" data-points="7 8" data-triangles="t8" data-classes="24" data-has-exact="false"/>
+    <line class="triangle-edge" x1="495.863" y1="964.000" x2="964.000" y2="888.749" data-points="7 15" data-triangles="t32" data-classes="25" data-has-exact="false"/>
+    <line class="triangle-edge" x1="495.863" y1="964.000" x2="615.989" y2="909.211" data-points="7 20" data-triangles="t32" data-classes="25" data-has-exact="false"/>
+    <line class="triangle-edge" x1="495.863" y1="964.000" x2="684.752" y2="105.980" data-points="7 21" data-triangles="t8" data-classes="24" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="74.304" y2="761.024" data-points="8 9" data-triangles="t5" data-classes="20" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="412.983" y2="366.656" data-points="8 11" data-triangles="t25" data-classes="10" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="337.056" y2="773.476" data-points="8 16" data-triangles="t0" data-classes="16" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="511.578" y2="57.134" data-points="8 17" data-triangles="t33" data-classes="26" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="672.277" y2="699.060" data-points="8 18" data-triangles="t33" data-classes="26" data-has-exact="false"/>
+    <line class="triangle-edge" x1="631.850" y1="434.214" x2="684.752" y2="105.980" data-points="8 21" data-triangles="t8 t30" data-classes="21 24" data-has-exact="false"/>
+    <line class="triangle-edge" x1="74.304" y1="761.024" x2="412.983" y2="366.656" data-points="9 11" data-triangles="t11" data-classes="27" data-has-exact="false"/>
+    <line class="triangle-edge" x1="74.304" y1="761.024" x2="297.476" y2="550.197" data-points="9 12" data-triangles="t11" data-classes="27" data-has-exact="false"/>
+    <line class="triangle-edge" x1="74.304" y1="761.024" x2="108.648" y2="389.503" data-points="9 13" data-triangles="t20" data-classes="6" data-has-exact="false"/>
+    <line class="triangle-edge" x1="74.304" y1="761.024" x2="36.000" y2="567.428" data-points="9 14" data-triangles="t24 t28" data-classes="2 28" data-has-exact="false"/>
+    <line class="triangle-edge" x1="74.304" y1="761.024" x2="184.989" y2="886.825" data-points="9 22" data-triangles="t24" data-classes="28" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="412.983" y2="366.656" data-points="10 11" data-triangles="t36" data-classes="29" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="297.476" y2="550.197" data-points="10 12" data-triangles="t21" data-classes="30" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="108.648" y2="389.503" data-points="10 13" data-triangles="t10" data-classes="31" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="36.000" y2="567.428" data-points="10 14" data-triangles="t10" data-classes="31" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="337.056" y2="773.476" data-points="10 16" data-triangles="t21" data-classes="30" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="615.989" y2="909.211" data-points="10 20" data-triangles="t36" data-classes="29" data-has-exact="false"/>
+    <line class="triangle-edge" x1="300.580" y1="148.062" x2="684.752" y2="105.980" data-points="10 21" data-triangles="t9 t17" data-classes="3 17" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="297.476" y2="550.197" data-points="11 12" data-triangles="t11" data-classes="27" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="337.056" y2="773.476" data-points="11 16" data-triangles="t1" data-classes="32" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="511.578" y2="57.134" data-points="11 17" data-triangles="t1" data-classes="32" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="672.277" y2="699.060" data-points="11 18" data-triangles="t37" data-classes="33" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="928.912" y2="964.000" data-points="11 19" data-triangles="t37" data-classes="33" data-has-exact="false"/>
+    <line class="triangle-edge" x1="412.983" y1="366.656" x2="615.989" y2="909.211" data-points="11 20" data-triangles="t36" data-classes="29" data-has-exact="false"/>
+    <line class="triangle-edge has-exact" x1="297.476" y1="550.197" x2="108.648" y2="389.503" data-points="12 13" data-triangles="t38" data-classes="34" data-has-exact="true"/>
+    <line class="triangle-edge" x1="297.476" y1="550.197" x2="337.056" y2="773.476" data-points="12 16" data-triangles="t21" data-classes="30" data-has-exact="false"/>
+    <line class="triangle-edge" x1="297.476" y1="550.197" x2="511.578" y2="57.134" data-points="12 17" data-triangles="t13" data-classes="35" data-has-exact="false"/>
+    <line class="triangle-edge has-exact" x1="297.476" y1="550.197" x2="615.989" y2="909.211" data-points="12 20" data-triangles="t38" data-classes="34" data-has-exact="true"/>
+    <line class="triangle-edge" x1="297.476" y1="550.197" x2="184.989" y2="886.825" data-points="12 22" data-triangles="t13" data-classes="35" data-has-exact="false"/>
+    <line class="triangle-edge" x1="108.648" y1="389.503" x2="36.000" y2="567.428" data-points="13 14" data-triangles="t10" data-classes="31" data-has-exact="false"/>
+    <line class="triangle-edge" x1="108.648" y1="389.503" x2="964.000" y2="888.749" data-points="13 15" data-triangles="t6" data-classes="36" data-has-exact="false"/>
+    <line class="triangle-edge" x1="108.648" y1="389.503" x2="672.277" y2="699.060" data-points="13 18" data-triangles="t6" data-classes="36" data-has-exact="false"/>
+    <line class="triangle-edge has-exact" x1="108.648" y1="389.503" x2="615.989" y2="909.211" data-points="13 20" data-triangles="t38" data-classes="34" data-has-exact="true"/>
+    <line class="triangle-edge" x1="108.648" y1="389.503" x2="184.989" y2="886.825" data-points="13 22" data-triangles="t19" data-classes="4" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="567.428" x2="337.056" y2="773.476" data-points="14 16" data-triangles="t4" data-classes="37" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="567.428" x2="615.989" y2="909.211" data-points="14 20" data-triangles="t4" data-classes="37" data-has-exact="false"/>
+    <line class="triangle-edge" x1="36.000" y1="567.428" x2="184.989" y2="886.825" data-points="14 22" data-triangles="t24" data-classes="28" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="888.749" x2="672.277" y2="699.060" data-points="15 18" data-triangles="t6" data-classes="36" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="888.749" x2="928.912" y2="964.000" data-points="15 19" data-triangles="t2" data-classes="14" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="888.749" x2="615.989" y2="909.211" data-points="15 20" data-triangles="t23 t32" data-classes="25 38" data-has-exact="false"/>
+    <line class="triangle-edge" x1="964.000" y1="888.749" x2="184.989" y2="886.825" data-points="15 22" data-triangles="t23" data-classes="38" data-has-exact="false"/>
+    <line class="triangle-edge" x1="337.056" y1="773.476" x2="511.578" y2="57.134" data-points="16 17" data-triangles="t1" data-classes="32" data-has-exact="false"/>
+    <line class="triangle-edge" x1="337.056" y1="773.476" x2="615.989" y2="909.211" data-points="16 20" data-triangles="t4" data-classes="37" data-has-exact="false"/>
+    <line class="triangle-edge" x1="337.056" y1="773.476" x2="184.989" y2="886.825" data-points="16 22" data-triangles="t7" data-classes="15" data-has-exact="false"/>
+    <line class="triangle-edge" x1="511.578" y1="57.134" x2="672.277" y2="699.060" data-points="17 18" data-triangles="t33" data-classes="26" data-has-exact="false"/>
+    <line class="triangle-edge" x1="511.578" y1="57.134" x2="684.752" y2="105.980" data-points="17 21" data-triangles="t22" data-classes="7" data-has-exact="false"/>
+    <line class="triangle-edge" x1="511.578" y1="57.134" x2="184.989" y2="886.825" data-points="17 22" data-triangles="t13" data-classes="35" data-has-exact="false"/>
+    <line class="triangle-edge" x1="672.277" y1="699.060" x2="928.912" y2="964.000" data-points="18 19" data-triangles="t37" data-classes="33" data-has-exact="false"/>
+    <line class="triangle-edge" x1="672.277" y1="699.060" x2="615.989" y2="909.211" data-points="18 20" data-triangles="t14 t27" data-classes="18 22" data-has-exact="false"/>
+    <line class="triangle-edge" x1="672.277" y1="699.060" x2="184.989" y2="886.825" data-points="18 22" data-triangles="t35" data-classes="11" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="964.000" x2="615.989" y2="909.211" data-points="19 20" data-triangles="t29" data-classes="39" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="964.000" x2="684.752" y2="105.980" data-points="19 21" data-triangles="t12" data-classes="23" data-has-exact="false"/>
+    <line class="triangle-edge" x1="928.912" y1="964.000" x2="184.989" y2="886.825" data-points="19 22" data-triangles="t29" data-classes="39" data-has-exact="false"/>
+    <line class="triangle-edge" x1="615.989" y1="909.211" x2="184.989" y2="886.825" data-points="20 22" data-triangles="t23 t29" data-classes="38 39" data-has-exact="false"/>
+  </g>
+  <g aria-label="Solution points">
+    <circle class="point" id="point-0" data-point-index="0" cx="36.000" cy="133.810" r="7" aria-label="Point 0: (0.000000000000000000000000000000, 0.894601011253987410508664889759)"><title>Point 0: (0.000000000000000000000000000000, 0.894601011253987410508664889759)</title></circle>
+    <circle class="point" id="point-1" data-point-index="1" cx="96.619" cy="36.000" r="7" aria-label="Point 1: (0.065322643375900505795449173530, 1.000000000000000000000000000000)"><title>Point 1: (0.065322643375900505795449173530, 1.000000000000000000000000000000)</title></circle>
+    <circle class="point" id="point-2" data-point-index="2" cx="877.456" cy="585.914" r="7" aria-label="Point 2: (0.906741188377844638453960141916, 0.407420412990045227432570091355)"><title>Point 2: (0.906741188377844638453960141916, 0.407420412990045227432570091355)</title></circle>
+    <circle class="point" id="point-3" data-point-index="3" cx="964.000" cy="415.381" r="7" aria-label="Point 3: (1.000000000000000000000000000000, 0.591184387125271508209118667978)"><title>Point 3: (1.000000000000000000000000000000, 0.591184387125271508209118667978)</title></circle>
+    <circle class="point" id="point-4" data-point-index="4" cx="928.912" cy="36.000" r="7" aria-label="Point 4: (0.962190079055943631114456903579, 1.000000000000000000000000000000)"><title>Point 4: (0.962190079055943631114456903579, 1.000000000000000000000000000000)</title></circle>
+    <circle class="point" id="point-5" data-point-index="5" cx="877.720" cy="260.306" r="7" aria-label="Point 5: (0.907025958456505133793461827160, 0.758291067311265281126547995041)"><title>Point 5: (0.907025958456505133793461827160, 0.758291067311265281126547995041)</title></circle>
+    <circle class="point" id="point-6" data-point-index="6" cx="710.057" cy="262.934" r="7" aria-label="Point 6: (0.726354877869730597046687482608, 0.755458539268138223258952123830)"><title>Point 6: (0.726354877869730597046687482608, 0.755458539268138223258952123830)</title></circle>
+    <circle class="point" id="point-7" data-point-index="7" cx="495.863" cy="964.000" r="7" aria-label="Point 7: (0.495541931361140514952795316916, 0.000000000000000000000000000000)"><title>Point 7: (0.495541931361140514952795316916, 0.000000000000000000000000000000)</title></circle>
+    <circle class="point" id="point-8" data-point-index="8" cx="631.850" cy="434.214" r="7" aria-label="Point 8: (0.642079968198193387725605807136, 0.570889827528900769269861261505)"><title>Point 8: (0.642079968198193387725605807136, 0.570889827528900769269861261505)</title></circle>
+    <circle class="point" id="point-9" data-point-index="9" cx="74.304" cy="761.024" r="7" aria-label="Point 9: (0.041275945869651432447335672860, 0.218724546817814028312880465787)"><title>Point 9: (0.041275945869651432447335672860, 0.218724546817814028312880465787)</title></circle>
+    <circle class="point" id="point-10" data-point-index="10" cx="300.580" cy="148.062" r="7" aria-label="Point 10: (0.285107455568728766145374769424, 0.879243355089348916343256538260)"><title>Point 10: (0.285107455568728766145374769424, 0.879243355089348916343256538260)</title></circle>
+    <circle class="point" id="point-11" data-point-index="11" cx="412.983" cy="366.656" r="7" aria-label="Point 11: (0.406231917181723974272798743195, 0.643689700471029716046908150001)"><title>Point 11: (0.406231917181723974272798743195, 0.643689700471029716046908150001)</title></circle>
+    <circle class="point" id="point-12" data-point-index="12" cx="297.476" cy="550.197" r="7" aria-label="Point 12: (0.281763435818907951087908613299, 0.445908563568862341041535921453)"><title>Point 12: (0.281763435818907951087908613299, 0.445908563568862341041535921453)</title></circle>
+    <circle class="point" id="point-13" data-point-index="13" cx="108.648" cy="389.503" r="7" aria-label="Point 13: (0.078284166658656585832559067657, 0.619069535891247005311319100557)"><title>Point 13: (0.078284166658656585832559067657, 0.619069535891247005311319100557)</title></circle>
+    <circle class="point" id="point-14" data-point-index="14" cx="36.000" cy="567.428" r="7" aria-label="Point 14: (0.000000000000000000000000000000, 0.427340014282245911523951405570)"><title>Point 14: (0.000000000000000000000000000000, 0.427340014282245911523951405570)</title></circle>
+    <circle class="point" id="point-15" data-point-index="15" cx="964.000" cy="888.749" r="7" aria-label="Point 15: (1.000000000000000000000000000000, 0.081089704659748431372935610581)"><title>Point 15: (1.000000000000000000000000000000, 0.081089704659748431372935610581)</title></circle>
+    <circle class="point" id="point-16" data-point-index="16" cx="337.056" cy="773.476" r="7" aria-label="Point 16: (0.324414202337696122084310575129, 0.205306336132838599107311629051)"><title>Point 16: (0.324414202337696122084310575129, 0.205306336132838599107311629051)</title></circle>
+    <circle class="point" id="point-17" data-point-index="17" cx="511.578" cy="57.134" r="7" aria-label="Point 17: (0.512476542717604538062647967561, 0.977226720165213722065848656269)"><title>Point 17: (0.512476542717604538062647967561, 0.977226720165213722065848656269)</title></circle>
+    <circle class="point" id="point-18" data-point-index="18" cx="672.277" cy="699.060" r="7" aria-label="Point 18: (0.685643401093142573810101125317, 0.285495599436920394359232566683)"><title>Point 18: (0.685643401093142573810101125317, 0.285495599436920394359232566683)</title></circle>
+    <circle class="point" id="point-19" data-point-index="19" cx="928.912" cy="964.000" r="7" aria-label="Point 19: (0.962190079055943631114456903579, 0.000000000000000000000000000000)"><title>Point 19: (0.962190079055943631114456903579, 0.000000000000000000000000000000)</title></circle>
+    <circle class="point" id="point-20" data-point-index="20" cx="615.989" cy="909.211" r="7" aria-label="Point 20: (0.624987619226316281024622028964, 0.059040293074966930798348081453)"><title>Point 20: (0.624987619226316281024622028964, 0.059040293074966930798348081453)</title></circle>
+    <circle class="point" id="point-21" data-point-index="21" cx="684.752" cy="105.980" r="7" aria-label="Point 21: (0.699085732781624601877465592336, 0.924590831363336548809468289965)"><title>Point 21: (0.699085732781624601877465592336, 0.924590831363336548809468289965)</title></circle>
+    <circle class="point" id="point-22" data-point-index="22" cx="184.989" cy="886.825" r="7" aria-label="Point 22: (0.160548510647365540886567372378, 0.083162244830842011529669306423)"><title>Point 22: (0.160548510647365540886567372378, 0.083162244830842011529669306423)</title></circle>
+  </g>
+  <script><![CDATA[
+    (() => {
+      const root = document.getElementById("heilbronn-745ef6e551e9");
+      if (!root) return;
+      const triangles = Array.from(root.querySelectorAll('.limiting-fill'));
+      const edges = Array.from(root.querySelectorAll('.triangle-edge'));
+      const points = Array.from(root.querySelectorAll('.point'));
+      const status = root.querySelector('.selection-status');
+      let locked = null;
+
+      const sameFocus = (a, b) => Boolean(a && b && a.type === b.type && a.id === b.id);
+      const triangleIdsForPoint = index => new Set(
+        triangles.filter(item => item.dataset.points.split(' ').includes(String(index)))
+          .map(item => item.dataset.triangleId)
+      );
+      const triangleIdsForClass = index => new Set(
+        triangles.filter(item => item.dataset.classIndex === String(index))
+          .map(item => item.dataset.triangleId)
+      );
+      const triangleWord = count => count === 1 ? 'triangle' : 'triangles';
+
+      function updateStatus(focus, active) {
+        if (!status) return;
+        if (!focus) { status.textContent = ''; return; }
+        if (focus.type === 'point') {
+          status.textContent = `Point ${focus.id} — ${active.size} limiting ${triangleWord(active.size)}`;
+          return;
+        }
+        if (focus.type === 'class') {
+          status.textContent = `Class ${focus.id} — ${active.size} limiting ${triangleWord(active.size)}`;
+          return;
+        }
+        const item = triangles.find(triangle => triangle.dataset.triangleId === focus.id);
+        if (!item) { status.textContent = ''; return; }
+        const pointsText = item.dataset.points.split(' ').join(', ');
+        const kind = item.dataset.exactMinimum === 'true' ? 'exact minimum' : 'near minimum';
+        status.textContent = `Triangle (${pointsText}) — ${kind} — class ${item.dataset.classIndex}`;
+      }
+
+      function applyFocus(focus) {
+        let active = new Set();
+        if (focus?.type === 'triangle') active.add(focus.id);
+        if (focus?.type === 'point') active = triangleIdsForPoint(focus.id);
+        if (focus?.type === 'class') active = triangleIdsForClass(focus.id);
+        root.classList.toggle('has-focus', active.size > 0);
+        triangles.forEach(item => item.classList.toggle('is-active', active.has(item.dataset.triangleId)));
+        edges.forEach(edge => {
+          const members = edge.dataset.triangles.split(' ');
+          edge.classList.toggle('is-active', members.some(id => active.has(id)));
+        });
+        const focusPoints = new Set();
+        triangles.filter(item => active.has(item.dataset.triangleId)).forEach(item => {
+          item.dataset.points.split(' ').forEach(index => focusPoints.add(index));
+        });
+        points.forEach(point => {
+          const index = point.dataset.pointIndex;
+          point.classList.toggle('is-focus-member', focusPoints.has(index));
+          point.classList.toggle('is-selected', focus?.type === 'point' && String(focus.id) === index);
+        });
+        updateStatus(focus, active);
+      }
+
+      function preview(focus) { if (!locked) applyFocus(focus); }
+      function endPreview() { if (!locked) applyFocus(null); }
+      function toggleLock(focus) {
+        locked = sameFocus(locked, focus) ? null : focus;
+        applyFocus(locked);
+      }
+
+      triangles.forEach(item => {
+        const focus = {type: 'triangle', id: item.dataset.triangleId};
+        const classFocus = {type: 'class', id: Number(item.dataset.classIndex)};
+        item.addEventListener('pointerenter', () => preview(focus));
+        item.addEventListener('pointerleave', endPreview);
+        item.addEventListener('click', event => {
+          event.stopPropagation();
+          toggleLock(event.shiftKey ? classFocus : focus);
+        });
+      });
+      points.forEach(point => {
+        const focus = {type: 'point', id: Number(point.dataset.pointIndex)};
+        point.addEventListener('pointerenter', () => preview(focus));
+        point.addEventListener('pointerleave', endPreview);
+        point.addEventListener('click', event => { event.stopPropagation(); toggleLock(focus); });
+      });
+      root.addEventListener('click', event => {
+        if (event.target === root || event.target.classList.contains('frame')) {
+          locked = null;
+          applyFocus(null);
+        }
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') { locked = null; applyFocus(null); }
+      });
+    })();
+  ]]></script>
+</svg>

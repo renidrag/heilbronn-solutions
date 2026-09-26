@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these configurations, please cite this collection."
+title: "Heilbronn configurations"
+type: dataset
+authors:
+  - family-names: "Gardiner"
+    given-names: "Rob"
+date-released: 2026-09-26
+license: CC-BY-4.0
+abstract: >-
+  Exactly verified point configurations giving improved feasible lower bounds
+  for instances of the Heilbronn triangle problem.
