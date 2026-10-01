@@ -18,13 +18,21 @@ Point configurations in the unit square
 | 35 | 2026-09-24 – current | 0.004432287444307324185873611323 | [History](squares/square-n35/README.md) · [Coordinates](squares/square-n35/2026-09-26-0.004432287444307324185873611323/coordinates.txt) · [SVG](squares/square-n35/2026-09-26-0.004432287444307324185873611323/configuration.svg) · [PNG](squares/square-n35/2026-09-26-0.004432287444307324185873611323/configuration.png) |
 | 21 | 2026-09-24 – current | 0.011473760785701210268349183177 | [History](squares/square-n21/README.md) · [Coordinates](squares/square-n21/2026-09-26-0.011473760785701210268349183177/coordinates.txt) · [SVG](squares/square-n21/2026-09-26-0.011473760785701210268349183177/configuration.svg) · [PNG](squares/square-n21/2026-09-26-0.011473760785701210268349183177/configuration.png) |
 
+## Triangle container
+
+Point configurations in a triangle. Coordinates use the unit right triangle (`x >= 0`, `y >= 0`, `x + y <= 1`); lower bounds are minimum triangle area divided by container area. The figures show the equivalent configuration in an equilateral triangle.
+
+| Points | Record period | Verified lower bound | History / files |
+|---|---|---|---|
+| 20 | 2026-09-30 – current | 0.012609391528641322601846401770 | [History](triangles/triangle-n20/README.md) · [Coordinates](triangles/triangle-n20/2026-10-01-0.012609391528641322601846401770/coordinates.txt) · [SVG](triangles/triangle-n20/2026-10-01-0.012609391528641322601846401770/configuration.svg) · [PNG](triangles/triangle-n20/2026-10-01-0.012609391528641322601846401770/configuration.png) |
+
 Record period continues across improvements of our own result; individual result dates, gains and earlier periods remain in each history.
 
 Periods refer to documented best-known coordinate bounds, not construction priority; `current` reflects reviewed evidence, not live monitoring. Historical comparisons retain their stated baselines. See also [Tej Stead's catalogue](https://github.com/tejstead/heilbronn-site).
 
 ## Further detail
 
-Current versions preserve every stored digit of the verified source coordinates: 60 decimal places for n=19, 21, 23 and 25, and 160 decimal places for n=35. Feasibility and every triangle have been checked using exact rational arithmetic on those published literals. Full precision means the stored numerical configuration, not a claim of exact optimal coordinates.
+Current versions preserve every stored digit of the verified source coordinates: 60 decimal places for square n=19, 21, 23 and 25, and 160 decimal places for square n=35 and triangle n=20. Feasibility and every triangle have been checked using exact rational arithmetic on those published literals. Full precision means the stored numerical configuration, not a claim of exact optimal coordinates.
 The lower bounds above are computed from the published coordinates and conservatively truncated to 30 decimal places for display; the coordinate files retain their full precision.
 
 Versions are named `YYYY-MM-DD-<lower-bound>`; the date is the export date. Improved configurations receive new version folders, retaining earlier discoveries in the configuration history. Restoring omitted coordinate digits is not a new discovery and does not change its discovery date.
